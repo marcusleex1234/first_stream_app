@@ -34,7 +34,7 @@ fruityvice_response = requests.get('https://fruityvice.com/api/fruit/' + fruit_c
 
 
 import requests
-fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
+fruityvice_response = requests.get("https://fruityvice.com/api/fruit/")
 #streamlit.text(fruityvice_response.json()) # just writes the data to the screen
 
 #take the json version of teh response and normalize it
