@@ -117,7 +117,7 @@ if streamlit.button('Get Fruit Load List'):
 #streamlit.write('Thanks for adding', add_my_fruit)
 
 #thsi will not work correctly, but just go with it for now
-my_cur.execute("insert into fruit_load_list values ('from streamlit')")
+#my_cur.execute("insert into fruit_load_list values ('from streamlit')")
 
 ##=================NEW WAY================##
 #Allow the end user to add a fruit to the list
